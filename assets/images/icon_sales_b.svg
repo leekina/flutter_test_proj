@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" style="enable-background:new 0 0 30 30" xml:space="preserve">
+    <style>
+        .st0{display:none}.st1{display:inline}.st2,.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#0e0e0e}.st3{fill:#c4722c}.st4{fill:#0e0e0e}.st5{fill:#0d0d0d}.st6{fill:#cc752b}.st8{fill:#fff}.st10{fill:#c4722c}.st11{fill:#d57827}.st12{fill:#0d0c0c}.st13,.st14,.st16,.st17,.st18,.st20{fill:none;stroke:#0d0c0c;stroke-width:1.5637;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}.st14,.st16,.st17,.st18,.st20{stroke-width:1.0425}.st16,.st17,.st18,.st20{stroke-width:.8352}.st17,.st18,.st20{stroke:#cc752b;stroke-width:1.5637}.st18,.st20{stroke-width:1.0425}.st20{stroke-width:.8352}
+    </style>
+    <g id="정산">
+        <path class="st13" d="M22.2 8.4c0 1.8-4.3 3.2-9.5 3.2s-9.5-1.4-9.5-3.2c0-1.8 4.3-3.2 9.5-3.2 5.3 0 9.5 1.4 9.5 3.2z"/>
+        <path class="st14" d="M18.1 14.3c-1.3.4-3.8.4-5.3.4-5.2 0-9.5-1.4-9.5-3.2M15.6 17.6c-.9.1-1.9.2-2.9.2-5.2 0-9.5-1.4-9.5-3.2M15.4 20.6c-.8.1-1.7.1-2.6.1-5.2 0-9.5-1.4-9.5-3.2"/>
+        <path class="st13" d="M16.7 23.3c-.8.3-2.8.5-4 .5-5.2 0-9.5-1.4-9.5-3.2"/>
+        <path class="st14" d="M22.5 13.6V8.4"/>
+        <path class="st13" d="M3.2 20.7V8.6"/>
+        <path d="M15.4 19.1c0 3.2 2.6 5.7 5.7 5.7 3.2 0 5.7-2.6 5.7-5.7 0-3.2-2.6-5.7-5.7-5.7-3.2 0-5.7 2.6-5.7 5.7z" style="fill:none;stroke:#0d0c0c;stroke-width:1.2528;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"/>
+        <path class="st16" d="m17.8 16.9 1.7 5.2 1.7-5.1 1.4 5.1 1.5-5M24.5 19.4h-7"/>
+    </g>
+</svg>
