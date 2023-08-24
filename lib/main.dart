@@ -7,6 +7,7 @@ import 'package:get/get.dart';
 
 import 'svg_test/svg_test_main.dart';
 import 'web_test/webmain.dart';
+import 'webview/test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: WebTest(),
+      home: WebViewPage(),
     );
   }
 }
