@@ -5,6 +5,7 @@ import 'package:flutter_test_proj/getx_with_progress_indicator/indicator_with_st
 import 'package:flutter_test_proj/shared_preferences/shared.dart';
 import 'package:get/get.dart';
 
+import 'qr_code/qr_scan.dart';
 import 'svg_test/svg_test_main.dart';
 import 'web_test/webmain.dart';
 import 'webview/test.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: WebViewPage(),
+      home: QRViewExample(),
     );
   }
 }
