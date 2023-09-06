@@ -67,7 +67,7 @@ class _WebViewPageState extends State<WebViewPage> {
           );
         },
       )
-      ..loadRequest(Uri.parse('https://flutter.dev/'));
+      ..loadRequest(Uri.parse('https://youtube.com/'));
 
     if (controller.platform is AndroidWebViewController) {
       AndroidWebViewController.enableDebugging(true);

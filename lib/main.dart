@@ -7,6 +7,7 @@ import 'package:flutter_test_proj/shared_preferences/shared.dart';
 import 'package:get/get.dart';
 import 'package:permission_handler/permission_handler.dart';
 
+import 'overlay_test/main_page.dart';
 import 'qr_code/qr_scan.dart';
 import 'svg_test/svg_test_main.dart';
 import 'web_test/webmain.dart';
@@ -28,7 +29,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: WebViewPage(),
+      home: EasyOverlay(
+        title: "title",
+      ),
     );
   }
 }
