@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test_proj/flutter_video/flutter_video_test.dart';
 import 'package:flutter_test_proj/getx_with_progress_indicator/home_view.dart';
@@ -7,13 +8,18 @@ import 'package:flutter_test_proj/shared_preferences/shared.dart';
 import 'package:get/get.dart';
 import 'package:permission_handler/permission_handler.dart';
 
+import 'firebase_options.dart';
 import 'overlay_test/main_page.dart';
 import 'qr_code/qr_scan.dart';
 import 'svg_test/svg_test_main.dart';
 import 'web_test/webmain.dart';
 import 'webview/test.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 

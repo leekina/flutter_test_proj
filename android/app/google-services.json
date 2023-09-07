@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "881381147826",
+    "project_id": "flutter-messageing-test-ekina",
+    "storage_bucket": "flutter-messageing-test-ekina.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881381147826:android:c467cb95d7f5de9abef5ab",
+        "android_client_info": {
+          "package_name": "com.example.flutter_test_proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881381147826-12dtpvd6926afrf27gdkgsaus0ikk1h1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHec-jXx5VEzxdKBb7L8ZeZoDslG2gs0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881381147826-12dtpvd6926afrf27gdkgsaus0ikk1h1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
