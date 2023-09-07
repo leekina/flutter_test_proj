@@ -1,3 +1,4 @@
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 
 class Toast extends StatefulWidget {
@@ -11,6 +12,11 @@ class _ToastState extends State<Toast> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _animation;
 
+  void getToken() async {
+    String? _fcmToken = await FirebaseMessaging.instance.getAPNSToken();
+    print(_fcmToken);
+  }
+
   @override
   void initState() {
     super.initState();
@@ -23,6 +29,8 @@ class _ToastState extends State<Toast> with SingleTickerProviderStateMixin {
     _controller.forward().whenComplete(() {
       _controller.reverse();
     });
+
+    getToken();
   }
 
   @override
